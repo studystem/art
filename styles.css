@@ -104,6 +104,9 @@ section h2 {
     height: 100%;
     object-fit: cover;
     display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
     transition: transform 0.3s ease;
 }
 
@@ -122,6 +125,9 @@ section h2 {
     font-size: 0.9rem;
     letter-spacing: 0.05em;
     border: 2px dashed #ddd;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .placeholder-image span {
